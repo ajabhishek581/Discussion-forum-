@@ -1,0 +1,222 @@
+
+<!--css file for about us-->
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+.headNav{
+  width: 100%;
+  height: 8%;
+  background: black;
+  opacity: 0.8;
+}
+
+.general{
+  float: left;
+  list-style-type: none;
+  margin-top: 7px;
+}
+
+.general li{
+  display: inline-block;
+}
+
+.general li a{
+  text-decoration: none;
+  color: white;
+  padding: 5px 20px;
+  transition: 0.6s ease;
+}
+
+.general li a:hover{
+  border: 1px solid white;
+}
+.h1
+{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(about.jpg);
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+}
+
+
+nav
+{
+    width: 100%;
+    height: 60px;
+    background-color: black; 
+}
+
+.logo img
+{
+    float: left;
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.title
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1
+{
+    color: #fff;
+    font-size: 45px;
+}
+
+/**********Contact Page Styles**********/
+
+
+.page-heading{
+margin: 0px;
+color: black;
+font-size: 30px;
+font-weight: normal;
+}
+.form{
+width: 500px;
+padding: 50px 50px 50px 50px;
+margin: 0 auto;
+box-shadow: 0px 9px 13px 5px;  
+border-radius: 5px;
+color: #fff;
+}
+
+.form input{
+width: 100%;
+border-radius: 5px;
+height: 20px;
+background-color: #D6D6D6;
+}
+
+.form #message{
+width: 100%;
+border-radius: 5px;
+background-color: #D6D6D6;
+}
+
+.form #submit{
+height: 30px;
+background-color: #ffea00;
+color: black;
+}
+
+/**********About Page Styles**********/
+
+.about
+{
+    padding: 20px;
+  
+}
+
+.aboutimg
+{
+    width: 500px;
+    padding: 20px;
+}
+
+.aboutinfo
+{
+    margin: 0px;
+color: #fff;
+font-size: 20px;
+font-weight: normal;
+}
+
+
+/**********Interaction pg**********/
+
+
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #191970;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #191970;
+}
+
+.query {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+/**********Thanks pg**********/
+
+.askquery {
+  position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #fff;
+    padding: 20px 60px;
+    margin: 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    background-color: #191970;
+}
+
+.askquery:hover {
+   background-color: #000;
+  color: #fff;
+}
+
+.askquery::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	
+}
+.askquery:hover::after{
+	opacity: 0;	
+	-webkit-transform: scale(0.1, 1);
+	transform: scale(0.1, 1);
+}
+
+.page-heading2{
+margin: 0px;
+color: #191970;
+font-size: 30px;
+font-weight: normal;
+}
